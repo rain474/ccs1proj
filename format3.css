@@ -1,0 +1,25 @@
+table, th, td {
+  border:1px solid red;
+
+}
+
+#category {
+	background-color:red;
+	color:white;
+}
+
+#course {
+	color:red;
+}
+
+.p1 {
+	color: brown;
+}
+
+b {
+	color: blue;
+}
+
+strong {
+	color: green;
+}

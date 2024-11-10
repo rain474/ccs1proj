@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="format2.css">
+    
+</head>
+<body>
+
+    
+        
+    <div class="form-container">
+        <h1>Let's connect!!</h1>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age">
+
+            <label>What Computer Languages do you love? <span>(Check all that apply)</span></label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="languages" value="C"> C</label>
+                <label><input type="checkbox" name="languages" value="C++"> C++</label>
+                <label><input type="checkbox" name="languages" value="C#"> C#</label>
+                <label><input type="checkbox" name="languages" value="Java"> Java</label>
+                <label><input type="checkbox" name="languages" value="Python"> Python</label>
+                <label><input type="checkbox" name="languages" value="JavaScript"> JavaScript</label>
+                <label><input type="checkbox" name="languages" value="React"> React</label>
+            </div>
+
+            <label for="comments">Any comments or suggestions</label>
+            <textarea id="comments" name="comments" placeholder="Your comments here..."></textarea>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

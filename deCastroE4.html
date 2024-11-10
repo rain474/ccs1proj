@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 4 of My Web Page</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .row:last-child {
+            border-bottom: none;
+        }
+
+        .cell {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .favmovies {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+		
+		.cellimages {
+            text-align: center;
+        }
+		
+		.cellsongs {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+		
+		a .linksong {
+            color: black;
+            text-decoration: none;
+        }
+		
+		.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+		.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    </style>
+</head>
+<body>
+
+<h1>Exercise (More About Myself) – using <div> to layout</h1>
+
+<div class="container">
+
+    <div class="row center">
+        <div class="cell"></div>
+        <div class="cell"><a href="index.html">Home</a></div>
+        <div class="cell"><a href="page2.html">More About Myself</a></div>
+    </div>
+
+    <div class="row center">
+        <div class="cell" style="text-align: center;"><strong>Name: Rainier Angelo P. de Castro</strong></div>
+    </div>
+
+    <div class="row">
+        <div class="cell" style="flex: 3;">
+            <h3>More About Myself:</h3>
+			<p>Hobbies - I play online games and go to the gym</p>
+			<p>Talents - Mo Kanta bahalag yabag</p>
+			<p>Skills  - Q W E R (game reference) </p>
+			<img src="yiskills.jpg" width="500" height="150">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="cellimages" style="flex: 3;">
+            <strong>Photos</strong><br>
+			<img src="pice41.jpg" width="500" height="400">
+			<p>"My Hardworking Trait"</p>
+			
+        </div>
+    </div>
+
+    <div class="row">
+	 <div class="cell" style="flex: 3;">
+		<h3>Favorite Movie</h3>
+			<p>Ready Player One</p>
+			<p>Release Date: March 29, 2018</p>
+			<p>Director: Steven Spielberg</p>
+			<p>Cast: Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Mark Rylance</p>
+			<p>Genre: Sci-Fi, Adventure</p>
+			<p>Rating: PG-13</p>
+About: In a dystopian future, teenager Wade Watts (Parzival) searches for an Easter egg in a virtual reality world called the OASIS, competing against corporate foes and fellow gamers.
+Box Office: $582 million worldwide
+Awards: Nominated for Best Visual Effects (Academy Awards)
+	<div class="video-container">
+		<video width="400" controls>
+  <source src="favmovie.mp4" type="video/mp4">
+</video>
+       </div>
+	    
+</div>
+</div>
+
+		
+
+    <div class="row">
+        <div class="cellsongs" style="flex: 3;">
+			<strong>My Favorite Songs:</strong> <a href="https://www.youtube.com/watch?v=PwO1kmQ9fNk">Maroon 5 - Won't Go Home Without You </a>
+	
+					<div class="audio-container">
+		<audio controls autoplay muted>
+
+     <source src="favsong.mp3" type="audio/mpeg">
+</audio>
+</div>
+        <p>"Won't Go Home Without You" is a song by American band Maroon 5. It was released on November 19, 2007, as the third single from their second studio album It Won't Be Soon Before Long (2007). The guitar lines in the song are somewhat similar to The Police single "Every Breath You Take". In 2022, Billboard ranked it as the <strong>tenth best Maroon 5 song of all time.</strong></p></a>
+	
+
+
+
+
+</div>
+</div>
+</body>
+</html>
