@@ -62,6 +62,23 @@ a {
     float:center
 
 }
+a:link {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #264653; 
+}
+
+a:hover {
+    color: #e76f51; 
+    text-decoration: underline;
+}
+
+a:active {
+    color: #f4a261; 
+}
 
 .form1 {
     color:black;
