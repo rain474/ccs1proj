@@ -1,4 +1,3 @@
-/* Body Background and General Styles */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,22 +7,21 @@ body {
 }
 
 img {
-	width:25px;
-	height:25px;
-	float:left;
+    width: 25px;
+    height: 25px;
+    float: left;
 }
 
 .imghead {
-	width:60px;
-	height:35px;
-	float:left;
-
+    width: 60px;
+    height: 35px;
+    float: left;
 }
 
 /* Header Styling (Floating Navigation Bar) */
 header {
     display: flex;
-    background-color: rgba(41,51,52,255);
+    background-color: rgba(41, 51, 52, 255);
     position: fixed;
     top: 0;
     left: 0;
@@ -51,72 +49,61 @@ header li {
     color: white;
     font-size: 30px;
     font-weight: bold;
-
 }
 
+/* Link Styling with Pseudo-Classes */
 a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    float:center
-
+    float: center;
 }
+
 a:link {
-    color: red;
+    color: #2a9d8f; /* Clean teal color for unvisited links */
     text-decoration: none;
 }
 
 a:visited {
-    color: red; 
+    color: #264653; /* Slightly darker teal for visited links */
 }
 
 a:hover {
-    color: red; 
+    color: #e76f51; /* Soft coral color for hover */
     text-decoration: underline;
 }
 
 a:active {
-    color: red; 
+    color: #f4a261; /* Soft orange color for active links */
 }
 
 .form1 {
-    color:black;
+    color: black;
 }
 
 .form1:hover {
-    color:brown;
-}
-a:hover {
-    text-decoration: underline;
+    color: brown;
 }
 
 .dropdown-content {
     display: none;
     position: center;
-
- 
     z-index: 1;
-
-	
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-
 }
 
 .dropdown-content a {
     padding: 10px 20px;
     color: gray;
     font-size: 20px;
-	
-		
 }
 
 .dropdown-content a:hover {
     background-color: gray;
-
 }
 
 /* Profile Image Styling */
@@ -182,28 +169,27 @@ a:hover {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .rain {
-    font-size:50px;
-    margin-left:50px;
+    font-size: 50px;
+    margin-left: 50px;
 }
+
 #para1 p {
     font-size: 18px;
     line-height: 1.6;
-    text-align: justify;    
+    text-align: justify;
     color: #6b6b6b;
 }
 
 /* Smooth Transitions */
 a, .dropbtn {
     transition: all 0.3s ease;
-    background-color:rgba(255, 255, 255, 0.9);
-
-	
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(255, 255, 255, 0.2);
-
     color: #ffffff;
 }
 
@@ -212,10 +198,7 @@ a:hover, .dropdown:hover .dropbtn {
     transition: color 0.3s ease;
 }
 
-
-b{
-
+b {
     font-size: 20px;
     font-weight: bold;
-
 }
