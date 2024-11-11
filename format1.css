@@ -68,16 +68,16 @@ a:link {
 }
 
 a:visited {
-    color: #264653; 
+    color: red; 
 }
 
 a:hover {
-    color: #e76f51; 
+    color: red; 
     text-decoration: underline;
 }
 
 a:active {
-    color: #f4a261; 
+    color: red; 
 }
 
 .form1 {
